@@ -47,7 +47,7 @@ Asena.addCommand({pattern: 'filter ?(.*)', fromMe: true, desc: Lang.FILTER_DESC}
         await message.client.sendMessage(message.jid,Lang.FILTERED.format(Mat[0].replace(/['"]+/g, '')),MessageType.text);
     }
 }));
-
+'Roni uyr'.'umbi'.'AKHIL SAD'.'kozhi'.'AYIN??'.'choti'.'roni yude avasta'.'POWERES'.'NanbaN uyirrrr'
 Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC}, (async (message, match) => {
     match = match[1].match(/[\'\"\“](.*?)[\'\"\“]/gsm);
     if (match === null) {
